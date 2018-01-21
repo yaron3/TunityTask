@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA2C5C62014D9EE00F49C87 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2C5C52014D9EE00F49C87 /* CameraModel.swift */; };
+		CEA2C5C820153F4400F49C87 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2C5C720153F4300F49C87 /* ColorViewController.swift */; };
 		CEA6BF5F2010F9F300C4CD40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6BF5E2010F9F300C4CD40 /* AppDelegate.swift */; };
 		CEA6BF612010F9F300C4CD40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6BF602010F9F300C4CD40 /* ViewController.swift */; };
 		CEA6BF642010F9F300C4CD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6BF622010F9F300C4CD40 /* Main.storyboard */; };
 		CEA6BF662010F9F300C4CD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6BF652010F9F300C4CD40 /* Assets.xcassets */; };
 		CEA6BF692010F9F300C4CD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6BF672010F9F300C4CD40 /* LaunchScreen.storyboard */; };
 		CEA6BF742010F9F300C4CD40 /* TunityTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6BF732010F9F300C4CD40 /* TunityTaskTests.swift */; };
+		CEA6BF7F2010FA2700C4CD40 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6BF7E2010FA2700C4CD40 /* CameraViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEA2C5C52014D9EE00F49C87 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		CEA2C5C720153F4300F49C87 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		CEA6BF5B2010F9F300C4CD40 /* TunityTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TunityTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA6BF5E2010F9F300C4CD40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA6BF602010F9F300C4CD40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		CEA6BF6F2010F9F300C4CD40 /* TunityTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TunityTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA6BF732010F9F300C4CD40 /* TunityTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunityTaskTests.swift; sourceTree = "<group>"; };
 		CEA6BF752010F9F300C4CD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6BF7E2010FA2700C4CD40 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				CEA6BF652010F9F300C4CD40 /* Assets.xcassets */,
 				CEA6BF672010F9F300C4CD40 /* LaunchScreen.storyboard */,
 				CEA6BF6A2010F9F300C4CD40 /* Info.plist */,
+				CEA6BF7E2010FA2700C4CD40 /* CameraViewModel.swift */,
+				CEA2C5C52014D9EE00F49C87 /* CameraModel.swift */,
+				CEA2C5C720153F4300F49C87 /* ColorViewController.swift */,
 			);
 			path = TunityTask;
 			sourceTree = "<group>";
@@ -201,6 +210,9 @@
 			files = (
 				CEA6BF612010F9F300C4CD40 /* ViewController.swift in Sources */,
 				CEA6BF5F2010F9F300C4CD40 /* AppDelegate.swift in Sources */,
+				CEA2C5C62014D9EE00F49C87 /* CameraModel.swift in Sources */,
+				CEA2C5C820153F4400F49C87 /* ColorViewController.swift in Sources */,
+				CEA6BF7F2010FA2700C4CD40 /* CameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
